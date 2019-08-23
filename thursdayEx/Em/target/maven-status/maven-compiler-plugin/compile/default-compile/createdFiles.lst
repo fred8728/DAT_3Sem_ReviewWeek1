@@ -1,0 +1,6 @@
+rest\service\ApplicationConfig.class
+entities\Employee_.class
+facades\EmployeeFacade.class
+rest\service\EmployeeResources.class
+dto\EmployeeDTO.class
+entities\Employee.class

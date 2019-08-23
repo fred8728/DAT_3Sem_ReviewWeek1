@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: dbfacade.CustomerFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.304 sec <<< FAILURE!
+dbfacade.CustomerFacadeTest.testFindByLastName()  Time elapsed: 0.163 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <[]>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at dbfacade.CustomerFacadeTest.testFindByLastName(CustomerFacadeTest.java:99)
+
+dbfacade.CustomerFacadeTest.testGetCustomerFacade()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <dbfacade.CustomerFacade@76a2ddf3>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at dbfacade.CustomerFacadeTest.testGetCustomerFacade(CustomerFacadeTest.java:66)
+
+dbfacade.CustomerFacadeTest.testGetNumberOfCustomers()  Time elapsed: 0.009 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
+	at dbfacade.CustomerFacadeTest.testGetNumberOfCustomers(CustomerFacadeTest.java:111)
+
+dbfacade.CustomerFacadeTest.testFindByID()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at dbfacade.CustomerFacadeTest.testFindByID(CustomerFacadeTest.java:83)
+
+dbfacade.CustomerFacadeTest.testMain()  Time elapsed: 0.112 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at dbfacade.CustomerFacadeTest.testMain(CustomerFacadeTest.java:54)
+
+dbfacade.CustomerFacadeTest.testAllCustomers()  Time elapsed: 0.003 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <[Customer{id=1, firstName=Frederikke, lastName=Nilsson, created=Thu Aug 22 17:38:53 CEST 2019}, Customer{id=2, firstName=Cathrine, lastName=Nilsson, created=Thu Aug 22 17:38:53 CEST 2019}, Customer{id=3, firstName=Connie, lastName=Nilsson, created=Thu Aug 22 17:38:53 CEST 2019}, Customer{id=4, firstName=Peter, lastName=Nilsson, created=Thu Aug 22 17:38:53 CEST 2019}, Customer{id=5, firstName=Simone, lastName=Nielsen, created=Thu Aug 22 17:38:54 CEST 2019}]>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at dbfacade.CustomerFacadeTest.testAllCustomers(CustomerFacadeTest.java:123)
+
+dbfacade.CustomerFacadeTest.testAddCustomer()  Time elapsed: 0.015 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Customer{id=6, firstName=Louise, lastName=Madsen, created=Thu Aug 22 17:38:54 CEST 2019}> but was: <Customer{id=null, firstName=Louise, lastName=Madsen, created=Thu Aug 22 17:38:54 CEST 2019}>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at dbfacade.CustomerFacadeTest.testAddCustomer(CustomerFacadeTest.java:138)
+

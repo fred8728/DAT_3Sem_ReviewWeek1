@@ -1,9 +1,5 @@
 # Review_week1
 
-Introduktion:
-Opgaverne er opbygget således op, at 
-
-
 
 #Tirsdags opgaver:
 

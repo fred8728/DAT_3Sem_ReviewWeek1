@@ -19,7 +19,9 @@ BEMÆRK: Projektet er blevet lavet i setup filen fra lærerne - dog vil projekte
 
 Opgaven er blevet deployet og ligger på følgende link: [Tryk her](http://206.189.53.103:8080/Employee/api/employee/all)
 
-## Fredags opgave: Fredags opgaven dækker ligeledes, som torsdags opgaven og er blevet deployet.
+## Fredags opgave: 
+
+Fredags opgaven dækker ligeledes, som torsdags opgaven og er blevet deployet.
 
 BEMÆRK: Projektet er blevet lavet i setup filen fra lærerne - dog vil projektet ikke vise koden på git. Jeg har derfor lavet en ny mappe og kopieret src og target over i. Det vil derfor ikke fungerer, hvis du vil kører det i din netbeans. Er det tilfældet, at du gerne vil åbne projektet i netbeans kan du kontakte mig og jeg sender det.
 
